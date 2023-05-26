@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+                                 /* Header */
+
+/* .header{} */
+
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #2E2F42;
+}
+
+.header-nav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header-nav-item {
+    color: #2E2F42;
+    
+}
+
+.header-contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* .header-contacts-link:hover,
+.header-contacts-link:focus {
+    color:rgb(109, 109, 225)
+} */
+
+                                 /* Footer */
+
+.footer {}
+
+.footer-logo {}
+
+.footer-text {}
+
+                                /* Index page styles */
+
+/* Index page -  Hero Section*/
+
+.hero-section{
+}
+
+.hero-title {}
+
+.hero-button {}
+
+/* Index page -  Benefits Section*/
+
+.benefits-section {}
+
+.benefits-list {}
+
+.benefits-list-item {}
+
+.benefits-item-title {}
+
+.benefits-item-text {}
+
+/* Index page -  What are we doing Section*/
+
+.doing-section {}
+
+.doing-title {}
+
+.doing-list{}
+
+.doing-list-item {}
+
+/* img? */
+
+/* Index page -  Our team Section*/
+
+.team-section {}
+
+.team-title {}
+
+.team-list {}
+
+.team-list-item{}
+
+/* img? */
+
+.team-item-title {}
+
+.team-item-text{}
+
+/* Portfolio page -  Buttons nav menu*/
+
+.section-buttons{}
+
+.button-list{}
+
+.button-list-item {}
+
+.buttons-btn {}
+
+/* Portfolio page -  Portfolio items*/
+
+.section-portfolio {}
+
+.portfolio-list{}
+
+.portfolio-list-item {}
+
+.portfolio-item-link {}
+
+.portfolio-item-title {}
+
+.portfolio-item-text {}
