@@ -1,18 +1,10 @@
+:root {
+    
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffff;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.link {
-    text-decoration: none;
 }
 
 
@@ -113,6 +105,8 @@ ul {
 .team-item-title {}
 
 .team-item-text{}
+
+                                /* Portfolio page styles */
 
 /* Portfolio page -  Buttons nav menu*/
 
