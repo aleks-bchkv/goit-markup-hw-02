@@ -32,7 +32,7 @@ body {
     color: var(--primary-blue);
 }
 
-.studio-color {
+.studio-color span {
     color: var(--primary-navy-blue);
 }
 
