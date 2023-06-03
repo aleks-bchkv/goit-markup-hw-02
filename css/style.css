@@ -68,7 +68,7 @@ body {
 }
 
 .header-contacts-list .header-contacts-link:hover,
-.header-contacts-list .header-contacts-link:focus, {
+.header-contacts-list .header-contacts-link:focus {
     color: var(--secondary-active-ocean);
 }
 
