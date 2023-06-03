@@ -11,7 +11,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary-white);
-    text-decoration: none;
+    color: var(--primary-slate);
 }
 
 
@@ -22,7 +22,7 @@ body {
 } */
 
 .header-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -31,14 +31,19 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-navy-blue);
-}
-
-.web-color {
     color: var(--primary-blue);
 }
 
-.header-nav {
+.studio-color {
+    color: var(--primary-navy-blue);
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+
+.header-nav-list {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -46,25 +51,27 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-navy-blue);
+    list-style: none;
 }
 
-.header-nav .header-nav-item:hover,
-.header-nav .header-nav-item:focus,
-.header-nav .header-nav-item:active {
+.header-nav-list .header-nav-link:hover,
+.header-nav-list .header-nav-link:focus,
+.header-nav-list .header-nav-link:active {
     color: var(--secondary-active-ocean);
 }
 
-.header-contacts {
+.header-contacts-list {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-slate);
+    list-style: none;
 }
 
-.header-contacts .header-contacts-link:hover,
-.header-contacts .header-contacts-link:focus, {
+.header-contacts-list .header-contacts-link:hover,
+.header-contacts-list .header-contacts-link:focus, {
     color: var(--secondary-active-ocean);
 }
 
@@ -76,7 +83,7 @@ body {
 }
 
 .footer-logo {
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -88,12 +95,16 @@ body {
         color: var(--primary-cloud-grey);
 }
 
-.web-color {
+.studio-color {
     color: var(--primary-blue);
 }
 
+.footer-link {
+    text-decoration: none;
+}
+
 .footer-text {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -111,7 +122,7 @@ body {
 }
 
 .hero-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -122,13 +133,11 @@ body {
 }
 
 .hero-button {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: var(--primary-white);
     background-color: var(--primary-blue);
@@ -150,7 +159,7 @@ body {
 .benefits-list-item {} */
 
 .benefits-item-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -160,7 +169,7 @@ body {
 }
 
 .benefits-item-text {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -174,7 +183,7 @@ body {
 /* .doing-section {} */
 
 .doing-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -198,7 +207,7 @@ body {
 }
 
 .team-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -218,7 +227,7 @@ body {
 /* img? */
 
 .team-item-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -229,7 +238,7 @@ body {
 }
 
 .team-item-text{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -250,13 +259,11 @@ body {
 .button-list-item {} */
 
 .buttons-btn {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
     color: (--primary-blue);
@@ -282,7 +289,7 @@ body {
 .portfolio-item-link {} */
 
 .portfolio-item-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -292,7 +299,7 @@ body {
 }
 
 .portfolio-item-text {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
