@@ -27,8 +27,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-blue);
@@ -55,8 +53,7 @@ body {
 }
 
 .header-nav-list .header-nav-link:hover,
-.header-nav-list .header-nav-link:focus,
-.header-nav-list .header-nav-link:active {
+.header-nav-list .header-nav-link:focus {
     color: var(--secondary-active-ocean);
 }
 
@@ -88,8 +85,6 @@ body {
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--primary-cloud-grey);
