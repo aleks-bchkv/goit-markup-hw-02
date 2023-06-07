@@ -32,12 +32,8 @@ body {
     color: var(--primary-blue);
 }
 
-.studio-color span {
+.studio-color {
     color: var(--primary-navy-blue);
-}
-
-.header-link {
-    text-decoration: none;
 }
 
 
@@ -52,6 +48,11 @@ body {
     list-style: none;
 }
 
+.header-nav-link {
+    text-decoration: none;
+    color: var(--primary-navy-blue);
+}
+
 .header-nav-list .header-nav-link:hover,
 .header-nav-list .header-nav-link:focus {
     color: var(--secondary-active-ocean);
@@ -63,8 +64,19 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--primary-slate);
     list-style: none;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.header-contacts-link {
+    font-style: normal;
+    text-decoration: none;
+    color: var(--primary-slate);
 }
 
 .header-contacts-list .header-contacts-link:hover,
@@ -87,14 +99,14 @@ body {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--primary-cloud-grey);
+        color: var(--primary-blue);
 }
 
-.studio-color {
-    color: var(--primary-blue);
+.studio-footer {
+    color: var(--primary-cloud-grey);
 }
 
-.footer-link {
+.logo-link {
     text-decoration: none;
 }
 
@@ -247,13 +259,12 @@ body {
 
 /* Portfolio page -  Buttons nav menu*/
 
-/* .section-buttons{}
 
-.button-list{}
+.button-list {
+   list-style: none;
+}
 
-.button-list-item {} */
-
-.buttons-btn {
+.button-list .buttons-btn {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -261,34 +272,37 @@ body {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
-    color: (--primary-blue);
+    color: var(--primary-blue);
     background-color: var(--primary-cloud-grey);
     cursor: pointer;
 }
 
-.buttons-btn:hover,
-.buttons-btn:active,
-.buttons-btn:focus {
+.button-list .buttons-btn:hover,
+.button-list .buttons-btn:active,
+.button-list .buttons-btn:focus {
     color: var(--primary-white);
     background-color: var(--secondary-active-ocean);
 }
 
 /* Portfolio page -  Portfolio items*/
 
-/* .section-portfolio {}
+.portfolio-list .portfolio-list-item {
+    list-style: none;
+    text-decoration: none;
+}
 
-.portfolio-list{}
+/* .portfolio-list-item {} */
 
-.portfolio-list-item {}
-
-.portfolio-item-link {} */
+.section-portfolio .portfolio-item-link {
+    text-decoration: none;
+}
 
 .portfolio-item-title {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-navy-blue);
 }
@@ -296,7 +310,6 @@ body {
 .portfolio-item-text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
