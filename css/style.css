@@ -42,7 +42,7 @@ body {
 
 
 .header-nav-list {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -63,7 +63,7 @@ body {
 }
 
 .header-contacts-list {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
