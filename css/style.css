@@ -36,6 +36,10 @@ body {
     color: var(--primary-navy-blue);
 }
 
+.header .logo-link {
+    text-decoration: none;
+}
+
 
 .header-nav-list {
     font-family: 'Roboto';
@@ -106,7 +110,7 @@ body {
     color: var(--primary-cloud-grey);
 }
 
-.logo-link {
+.footer .logo-link {
     text-decoration: none;
 }
 
@@ -159,11 +163,13 @@ body {
 
 /* Index page -  Benefits Section*/
 
-/* .benefits-section {}
+/* .benefits-section {} */
 
-.benefits-list {}
+.benefits-list {
+    list-style: none;
+}
 
-.benefits-list-item {} */
+/* .benefits-list-item {} */
 
 .benefits-item-title {
     font-family: 'Roboto', sans-serif;
@@ -201,9 +207,11 @@ body {
     color: var(--primary-navy-blue);
 }
 
-/* .doing-list{}
+.doing-list{
+    list-style: none;
+}
 
-.doing-list-item {} */
+/* .doing-list-item {} */
 
 /* img? */
 
@@ -225,7 +233,9 @@ body {
     color: var(--primary-navy-blue);
 }
 
-/* .team-list {} */
+.team-list {
+    list-style: none;
+}
 
 .team-list-item{
     background-color: var(--primary-white);
