@@ -301,14 +301,14 @@ font-style: normal;
 
 /* Portfolio page -  Portfolio items*/
 
-.portfolio-list .portfolio-list-item {
+.portfolio-items .list {
     list-style: none;
     text-decoration: none;
 }
 
 /* .portfolio-list-item {} */
 
-.section-portfolio .portfolio-item-link {
+.portfolio-item .link {
     text-decoration: none;
 }
 
