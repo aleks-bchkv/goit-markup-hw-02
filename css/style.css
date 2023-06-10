@@ -82,14 +82,14 @@ font-style: normal;
     font-style: normal;
 } */
 
-.header-contacts .contacts-link {
+.header-contacts .link {
     font-style: normal;
     text-decoration: none;
     color: var(--primary-slate);
 }
 
-.header-contacts .contacts-link:hover,
-.header-contacts .contacts-link:focus {
+.header-contacts .link:hover,
+.header-contacts .link:focus {
     color: var(--secondary-active-ocean);
 }
 
