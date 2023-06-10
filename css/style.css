@@ -36,12 +36,12 @@ body {
     color: var(--primary-navy-blue);
 }
 
-.header .logo-link {
+.link {
     text-decoration: none;
 }
 
 
-.header-nav-list {
+.header .list {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -52,17 +52,17 @@ body {
     list-style: none;
 }
 
-.header-nav-link {
+.header .nav-link {
     text-decoration: none;
     color: var(--primary-navy-blue);
 }
 
-.header-nav-list .header-nav-link:hover,
-.header-nav-list .header-nav-link:focus {
+.header .nav-link:hover,
+.header .nav-link:focus {
     color: var(--secondary-active-ocean);
 }
 
-.header-contacts-list {
+.header-contacts .list {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -71,20 +71,21 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-slate);
     list-style: none;
-}
-
-.contacts {
     font-style: normal;
 }
 
-.header-contacts-link {
+/* .contacts-link {
+    font-style: normal;
+} */
+
+.header-contacts .contacts-link {
     font-style: normal;
     text-decoration: none;
     color: var(--primary-slate);
 }
 
-.header-contacts-list .header-contacts-link:hover,
-.header-contacts-list .header-contacts-link:focus {
+.header-contacts .contacts-link:hover,
+.header-contacts .contacts-link:focus {
     color: var(--secondary-active-ocean);
 }
 
