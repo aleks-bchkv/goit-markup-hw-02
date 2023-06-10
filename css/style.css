@@ -115,7 +115,7 @@ font-style: normal;
     color: var(--primary-cloud-grey);
 }
 
-.footer .logo-link {
+.footer .link {
     text-decoration: none;
 }
 
@@ -170,7 +170,7 @@ font-style: normal;
 
 /* .benefits-section {} */
 
-.benefits-list {
+.benefits-section .list {
     list-style: none;
 }
 
@@ -212,7 +212,7 @@ font-style: normal;
     color: var(--primary-navy-blue);
 }
 
-.doing-list{
+.doing-section .list {
     list-style: none;
 }
 
@@ -238,7 +238,7 @@ font-style: normal;
     color: var(--primary-navy-blue);
 }
 
-.team-list {
+.team-section .list {
     list-style: none;
 }
 
