@@ -52,14 +52,18 @@ body {
     list-style: none;
 }
 
-.header .nav-link {
+.nav .link {
     text-decoration: none;
     color: var(--primary-navy-blue);
 }
 
-.header .nav-link:hover,
-.header .nav-link:focus {
+.nav .link:hover,
+.nav .link:focus {
     color: var(--secondary-active-ocean);
+}
+
+address {
+font-style: normal;
 }
 
 .header-contacts .list {
