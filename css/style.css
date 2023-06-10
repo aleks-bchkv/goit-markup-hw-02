@@ -275,11 +275,11 @@ font-style: normal;
 /* Portfolio page -  Buttons nav menu*/
 
 
-.button-list {
+.portfolio-page .list {
    list-style: none;
 }
 
-.button-list .buttons-btn {
+.portfolio-page .buttons-btn {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -292,9 +292,9 @@ font-style: normal;
     cursor: pointer;
 }
 
-.button-list .buttons-btn:hover,
-.button-list .buttons-btn:active,
-.button-list .buttons-btn:focus {
+.portfolio-page .buttons-btn:hover,
+.portfolio-page .buttons-btn:active,
+.portfolio-page .buttons-btn:focus {
     color: var(--primary-white);
     background-color: var(--secondary-active-ocean);
 }
